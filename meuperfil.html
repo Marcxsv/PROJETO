@@ -8,37 +8,60 @@
 </head>
 <body>
     <div class="container">
-        <div id="topo">
-        <h1>Meu Perfil</h1>
-        <img src="oie_transparent.png" alt="" id="img">
+        <div class="form-image">
+            <img src="oie_transparent.png">
+            <div class="form-content">
+              <h1>Projeto Misericórdia</h1>
+              <p>Paróquia Nosso Senhor Jesus Cristo Rei</p>
+          </div>
         </div>
-        <div class="form-group">
+        <div class="navbar">
+            <a href="#">Meu perfil</a>
+            <a href="#">Colaboradores</a>
+            <a href="#">Famílias</a>
+            <a href="#">Sair do sistema</a>
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="input-group">
+                    <div class="column">
+        <div class="input-box">
             <label for="nome">Nome completo</label>
-            <input type="text" id="nome" disabled>
+            <input type="text" id="nome">
         </div>
-        <div class="form-group">
+        <div class="input-box">
             <label for="cpf">CPF</label>
-            <input type="text" id="cpf" disabled>
+            <input type="text" id="cpf">
         </div>
-        <div class="form-group">
+        <div class="input-box">
             <label for="colaboradores">Colaboradores</label>
-            <input type="text" id="colaboradores" disabled>
+            <input type="text" id="colaboradores">
         </div>
-        <div class="form-group">
+    </div>
+    <div class="column">
+        <div class="input-box">
             <label for="familias">Famílias</label>
-            <input type="text" id="familias" disabled>
+            <input type="text" id="familias">
         </div>
-        <div class="form-group">
+        <div class="input-box">
             <label for="celular">Contato - Celular / Whatsapp</label>
-            <input type="text" id="celular" disabled>
+            <input type="text" id="celular">
         </div>
-        <div class="form-group">
+        <div class="input-box">
             <label for="email">E-mail para o login</label>
-            <input type="text" id="email" disabled>
+            <input type="text" id="email">
         </div>
+    </div>
+    </div>
+    
         <button>Sair do sistema</button>
         <button>Remover colaborador</button>
         <button>Editar cadastro</button>
+
+
+    </form>
+
+    </div>
     </div>
 </body>
 </html>
